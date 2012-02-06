@@ -43,7 +43,6 @@
 					var color = el.css('color');
 
 					el.css('text-shadow', '0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color);	
-					el.css('opacity', 0.5);				
 				});
 			}
 			
