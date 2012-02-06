@@ -20,7 +20,7 @@
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
 		
-			var text_elements = new Array("p", "span", "h1", "h2", "h3", "h4", "h5", "h6", "a", "em", "b", "i");
+			var text_elements = new Array("p", "span", "h1", "h2", "h3", "h4", "h5", "h6", "a", "em", "b", "i", 'code', 'pre');
 		
 			function img_blur(){
 				$('img').each(function(){
