@@ -41,10 +41,9 @@
 				$(e).each(function(){
 					var el = $(this);
 					var color = el.css('color');
-					
 
 					el.css('text-shadow', '0 0 15px '+color);	
-					el.css('opacity', 0.33);				
+					el.css('opacity', 0.5);				
 				});
 			}
 			
