@@ -9,23 +9,37 @@
 	<body>
 	<div id="container">
 	
-		<h1>TEXTure</h1>
+		<h1>Texture</h1>
 		
-		<p><a href="http://vimeo.com/34178417">Jason Santa Maria gave a great talk at Build</a>. He talked about web typography and gave us various hints and tips. At about 17:30mins in, he gives us a tip as to how people visualize our designs. How they don't see the design and it's details like us, the designer.</p>
 		
-		<div class="column">
-			<p>He said:</p>
-			<p>Most people think that when you design something like this:</p>
-			<img src="imgs/before.jpg" />
-			<p>When someone is going to read it, they see the entirety of it. They see your nice type choice, they see how well defined all of your type is, the line length and the carefully considered spacing. But I think people see something a little bit more like this:</p>
-			<img src="imgs/after.jpg" />
-			<p>It's texture. It's content. They only notice it when something isnt right.</p>
+		<div class="island">
+			<div class="left">
+				<p><a href="http://vimeo.com/34178417">Jason Santa Maria gave a great talk at Build</a>. While talking about web typography, he explained that users don't see our sites like we do. They don't see the details. The don't see the little choices that we make as designers.<br><br>Texture lets you see this blur. Like a first time visitor. At the click of a button.</p>
+			</div>
+		
+			<figure class="right">
+				<figcaption>What you see:</figcaption>
+				<img src="imgs/before.jpg" alt="before" />
+			</figure>
 		</div>
 		
-		<div class="column">
-			<p>TEXTure is a javascript bookmarklet that lets see a website like a new person, in the click of a button! Just click the link below, or drag it to your bookmarks bar to use it on any site!</p>
-			<a href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://raw.github.com/davidfitzgibbon/TEXTure/master/texture.js';})();">blur.js</a>
+		<div class="island">
+		
+			<figure class="left">
+				<figcaption>What users see:</figcaption>
+				<img src="imgs/after.jpg" alt="after" />
+			</figure>
+	
+			
+			<div class="right">
+				<p>Texture is a javascript bookmarklet that lets see a website like a new person, in the click of a button! Just click the link below, or drag it to your bookmarks bar to use it on any site!</p>
+				<a class="texture" href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://raw.github.com/davidfitzgibbon/TEXTure/master/texture.js';})();">Texture</a>
+			</div>
 		</div>
+		
+		<footer>
+			<p>David Fitzgibbon 2012</p>
+		</footer>
 	
 	</div>
 	</body>
