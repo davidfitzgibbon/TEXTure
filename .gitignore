@@ -1,5 +1,6 @@
 .DS_Store*
-sass-cache/
+./style.sass
+.sass-cache/
 .sass-cache/100b527c542b6ad76c032f7dc32d1f5e9c74941b/_appearance.scssc
 
 .sass-cache/91edadd99e8c050ce050fcf1b5c4dc5beb3d2171/style.sassc
