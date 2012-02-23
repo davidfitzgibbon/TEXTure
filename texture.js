@@ -42,8 +42,8 @@
 					var el = $(this);
 					var color = el.css('color');
 
-					el.css('background', color);
-					el.css('text-shadow', '0,0,0,rgba(0,0,0,0)');	
+					el.css('text-shadow', '0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color);	
+
 				});
 			}
 			
