@@ -3,42 +3,70 @@
 <html>
 
 	<head>
-		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="css/style.css">
 	</head>
 	
 	<body>
-	<div id="container">
-	
-		<h1>Texture</h1>
-		
-		
-		<div class="island">
-			<div class="left">
-				<p><a href="http://vimeo.com/34178417">Jason Santa Maria gave a great talk at Build</a> talking about web typography, he explained that users don't see our sites like we do. They don't see the details. The don't see the little choices that we make as designers.<br><br>Texture lets you see this blur. Like a first time visitor. At the click of a button.</p>
+		<header>
+			<div>
+				<h1>TEXTure</h1>
 			</div>
-		
-			<figure class="right">
-				<figcaption>What you see:</figcaption>
-				<img src="imgs/before.jpg" alt="before" />
-			</figure>
-		</div>
-		
-		<div class="island">
-		
-			<figure class="left">
-				<figcaption>What users see:</figcaption>
-				<img src="imgs/after.jpg" alt="after" />
-			</figure>
+		</header>
 	
+		<div id="brown">
+			<div>
 			
-			<div class="right">
-				<p>Texture is a javascript bookmarklet that lets see a website like a new person, in the click of a button! Just click the link below, or drag it to your bookmarks bar to use it on any site!</p>
-				<a class="texture" href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://raw.github.com/davidfitzgibbon/TEXTure/master/texture.js';})();">Texture</a>
+				<div class="half">
+					<h1 id="problem">The Problem</h1>
+					
+					<p><a href="http://vimeo.com/34178417">Jason Santa Maria gave a great talk at Build</a> Web designers are very enthusiastic. It's why we stay up till all hours of the night trying to make things "just right" on our projects. However, this means that we look too closesly, and get lost in the details. We can't see the wood from the trees.</p>
+
+					<p>Jason Santa Maria gave a great talk at Build talking about web typography, he explained the problem. Our users don't see our sites like we do. They don't see the details. The don't see the little choices that we make as designers.</p>
+				
+				</div>
+				
+				<div class="half">
+		
+					<div class="island">				
+						<figure>
+							<figcaption>What you see:</figcaption>
+							<img src="imgs/before.jpg" alt="before" />
+						</figure>
+					</div>
+					
+					<div class="island">
+						<figure>
+							<figcaption>What users see:</figcaption>
+							<img src="imgs/after.jpg" alt="after" />
+						</figure>
+					</div>
+				
+				</div>
+				</div>
 			</div>
+		
 		</div>
 		
+		
+		
+		
+		<div id="white">
+			<div>
+				<div class="half">
+					<h1 id="solution">The Solution</h1>	
+					<p>TEXTure is a bookmarklet that allows you to blur your page. It lets you view your text, almost like a wireframe.</p>		
+				</div>
+				
+				<div class="half">
+					<a class="texture" href="javascript:(function(){document.body.appendChild(document.createElement('script')).src='https://raw.github.com/davidfitzgibbon/TEXTure/master/texture.js';})();">Click to try TEXTure!</a>
+				 	<p>Just grab the link above and drag it to your bookmarks bar to use it on any site!</p>
+				</div>
+			</div>
+
+		</div>
+
 		<footer>
-			<p>David Fitzgibbon 2012</p>
+			Code <a href="https://twitter.com/#!/davidfitzgibbon">David Fitzgibbon</a>  | Design <a href="https://twitter.com/#!/tonyodonohoe">Tony O'Donohoe</a> 
 		</footer>
 	
 	</div>

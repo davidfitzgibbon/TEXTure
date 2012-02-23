@@ -20,7 +20,7 @@
 	function initMyBookmarklet() {
 		(window.myBookmarklet = function() {
 		
-			var text_elements = new Array('html', 'body', 'div', 'span', 'applet', 'object', 'iframe', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'blockquote', 'pre', 'a', 'abbr', 'acronym', 'address', 'big', 'cite', 'code', 'del', 'dfn', 'em', 'ins', 'kbd', 'q', 's', 'samp', 'small', 'strike', 'strong', 'sub', 'sup', 'tt', 'var', 'b', 'u', 'i', 'center', 'dl', 'dt', 'dd', 'ol', 'ul', 'li', 'fieldset', 'form', 'label', 'legend', 'table', 'caption', 'tbody', 'tfoot', 'thead', 'tr', 'th', 'td', 'article', 'aside', 'canvas', 'details', 'embed', 'figure', 'figcaption', 'footer', 'header', 'hgroup', 'menu', 'nav', 'output', 'ruby', 'section', 'summary', 'time', 'mark');
+			var text_elements = new Array('figcaption', 'span', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'p', 'blockquote', 'pre', 'a', 'abbr', 'acronym', 'address', 'big', 'cite', 'code', 'del', 'dfn', 'em', 'ins', 'kbd', 'q', 's', 'samp', 'small', 'strike', 'strong', 'sub', 'sup', 'tt', 'var', 'b', 'u', 'i', 'center', 'dl', 'dt', 'dd', 'ol', 'li', 'label', 'legend', 'caption', 'th', 'td', 'time', 'mark');
 		
 			function img_blur(){
 				$('img').each(function(){
@@ -43,6 +43,7 @@
 					var color = el.css('color');
 
 					el.css('text-shadow', '0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color+',0 0 15px '+color);	
+
 				});
 			}
 			
