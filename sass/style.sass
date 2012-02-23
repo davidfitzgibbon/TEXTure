@@ -1,0 +1,94 @@
+/* COLORS */
+$white: #fff 
+$black: #000
+$red: #D43827
+$brown: #E8E5D9
+
+
+/* FONT SETTINGS */
+$fs: 16px
+$lh: 24px
+$gap: $lh
+
+@import 'includes'
+	
+@mixin sans
+	font-family: "Century Gothic", CenturyGothic, "AppleGothic", sans-serif
+
+*
+	@include border-box
+	
+body
+	color: $black
+
+	header, #brown, #white
+		margin-bottom: 0
+		
+		> div
+			width: 960px
+			margin: 0 auto
+			margin-bottom: 0
+			overflow: auto
+			padding: em(20px) 0
+			
+	header
+		background: $red url(../imgs/grey_triangles.gif) repeat-x bottom
+		color: $white
+
+		h1
+			margin: 0
+		
+	h1
+		font-size: em(34px)
+		line-height: em(34px, 34px)
+		@include island
+		
+	figcaption
+		font-size: em(22px)
+		line-height: em(34px, 22px)
+		
+	#brown
+		background: $brown
+		padding-bottom: $fs*2
+		
+	#white
+		background: $white url(../imgs/grey_triangles_bottom.gif) repeat-x top
+		
+		
+.half
+	width: 50%
+	float: left
+	
+p
+	line-height: em(($fs*2), $fs)
+	@include island
+	padding-right: $fs*2
+
+a
+	@include link-over($red)
+
+.texture 
+	@include link-under($red)
+	font-size: em(32px)
+	line-height: em(53px, 32px)
+	@include island
+	display: block
+
+#problem, #solution
+	background: no-repeat left center
+	padding-left: 68px
+	line-height: em(53px, 34px)
+
+#problem
+	background-image: url(../imgs/problem.png)
+
+#solution
+	background-image: url(../imgs/solution.png)
+
+footer
+	text-align: center
+	margin: 0 auto
+	@include island($lh*4)
+	margin-top: $lh*2
+
+
